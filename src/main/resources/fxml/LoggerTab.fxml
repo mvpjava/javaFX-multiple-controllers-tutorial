@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox fx:id="loggerTab" prefHeight="444.0" prefWidth="491.0"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="com.mvp.java.controllers.LoggerTabController">
+    <children>
+        <AnchorPane  maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="691.0" prefWidth="996.0" VBox.vgrow="ALWAYS">
+            <children>
+                <TextArea fx:id="loggerTxtArea" editable="false" prefHeight="484.0" prefWidth="996.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+            <VBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+        </AnchorPane>
+        <AnchorPane prefHeight="31.0" prefWidth="1086.0">
+            <children>
+                <Button mnemonicParsing="false" text="Clear Log" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+                <Button mnemonicParsing="false" text="Print Log" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            </children>
+            <VBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+        </AnchorPane>
+    </children>
+</VBox>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" 
+            minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" 
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="com.mvp.java.controllers.MainController">
+   <children>
+      <TabPane layoutX="127.0" layoutY="90.0" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="NASA Missions">
+               <content>
+                  <fx:include fx:id="consoleTab" source="ConsoleTab.fxml" />
+               </content>
+          </Tab>
+          <Tab text="Logger">
+               <content>
+                  <fx:include fx:id="loggerTab" source="LoggerTab.fxml" />
+               </content></Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

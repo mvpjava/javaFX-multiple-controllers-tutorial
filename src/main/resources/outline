@@ -1,0 +1,17 @@
+Java FX 8 - Communication between Controllers
+===================================================
+Will Cover ...
+
+- Tabbed Demo that concentrates on setting this up
+
+- Cover the gotcha's!
+    - fx:id for Components
+    - fx:id for include
+    - @FXML on Controllers
+
+- Some annoying issues ...
+
+- Follow up Questions ...    
+
+
+
